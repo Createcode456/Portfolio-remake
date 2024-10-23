@@ -767,21 +767,28 @@ section,
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
+  text-align: center;
 }
 
 .about .content ul {
-  list-style: none;
+  list-style: inside;
   padding: 0;
+  text-align: center;
+ 
+}
+.about{
+  background-color:#f8d8e8 ;
 }
 
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
+  text-align: center;
 }
 
 .about .content ul strong {
   margin-right: 10px;
+  text-align: center;
 }
 
 .about .content ul i {
@@ -789,6 +796,7 @@ section,
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -809,6 +817,7 @@ section,
   display: block;
   font-weight: 600;
   font-family: var(--heading-font);
+  background-color: f8d8e8;
 }
 
 .skills .progress .skill .val {
@@ -825,7 +834,7 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  background-color: #daa9c1;
 }
 
 /*--------------------------------------------------------------
@@ -834,6 +843,7 @@ section,
 .stats .stats-item {
   padding: 30px;
   width: 100%;
+  background-color:#f8d8e8 ;
 }
 
 .stats .stats-item span {
@@ -966,6 +976,10 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+#sum{
+  background-color: #c2c6f3;
+}
+
 .resume .resume-title {
   text-align: center;
   color: var(--heading-color);
@@ -973,6 +987,7 @@ section,
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
+ 
 }
 
 .resume .resume-item {
@@ -981,6 +996,7 @@ section,
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
+ 
 }
 
 .resume .resume-item h4 {
@@ -991,6 +1007,7 @@ section,
   text-transform: uppercase;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-bottom: 10px;
+
 }
 
 .resume .resume-item h5 {
@@ -1163,6 +1180,7 @@ section,
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+  background-color: #f8d8e8;
 }
 
 .portfolio .portfolio-filters li {
@@ -1177,6 +1195,7 @@ section,
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
   font-family: var(--heading-font);
+  background-color: #f8d8e8;
 }
 
 .portfolio .portfolio-filters li:hover,
@@ -1203,6 +1222,7 @@ section,
 .portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
+  background-color: #f8d8e8;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -1424,4 +1444,11 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.info{
+  text-align: center;
+  list-style-position: inside;
+  background-color: #f8d8e8;
+  color: #161616;
 }
